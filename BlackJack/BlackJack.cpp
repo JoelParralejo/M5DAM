@@ -129,6 +129,19 @@ void chooseCards(int& totalPoints, string player) {
 
     totalPoints += indiceCarta + 1;
     cout << "El jugador " << player << " ha sacado un " << indiceCarta + 1 << " de " << tipoPalo << " y tiene un total de " << totalPoints << endl;
+
+  //   if (indiceCarta >= 10)
+    //{
+      //  if (indiceCarta == 10) {
+        //    cout << "El jugador " << player << " ha sacado una J  de " << tipoPalo << " y tiene un total de " << totalPoints << endl;
+       // }
+        //else if (indiceCarta == 11) {
+         //   cout << "El jugador " << player << " ha sacado una Q  de " << tipoPalo << " y tiene un total de " << totalPoints << endl;
+       // }
+        //else {
+          //  cout << "El jugador " << player << " ha sacado una K  de " << tipoPalo << " y tiene un total de " << totalPoints << endl;
+       // }
+    //}
 }
 
 bool checkPoints(int& points, bool& winner, bool& loser) {
